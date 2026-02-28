@@ -24,4 +24,14 @@ combinedUser.greeting= function() {
 user1.user1_name = ' M Ramzan Abid';
 user2.user2_name = ' Hitesh Choudhary';
 
-console.log(combinedUser.greeting());
+// console.log(combinedUser.greeting());
+
+combinedUser.message = function(){
+    console.log(`This message is to learn the functuonality of thsi operator in javascript ${this.user1_name}`);
+}
+console.log;(combinedUser.message());
+const {user1_name:u1name}= user1;
+const {user2_name:u2name}= user2;
+console.log(u1name);
+console.log(u2name);    
+const keys = Object.keys(combinedUser);
