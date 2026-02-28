@@ -1,4 +1,20 @@
+/*
+in this section i have practiced with objects in JavaScript.
+i have learned
+1. how to create an object using object literal syntax
+2. how to access and modify object properties
+3. how to use computed property names
+4. how to use symbols as object keys
+5. how to destructure objects
+6. how to combine objects using Object.assign() and spread operator
+7. how to extract keys and values from an object using Object.keys() and Object.values() methods
+8. how to check if a property exists in an object using hasOwnProperty() method
 
+
+
+
+
+*/
 const mysymbol = Symbol("mySymbol");
 
 
