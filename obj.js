@@ -40,8 +40,8 @@ const combinedObj2 = {...objuser,...objuser2};
 //extracting keys and values from an object using Object.keys() and Object.values() methods
 const keys = Object.keys(objuser);
 const values = Object.values(objuser);
-// console.log(keys);
-// console.log(values);
+console.log(keys);
+console.log(values);
 
 // checking if a property exists in an object using hasOwnProperty() method
 // console.log(objuser.hasOwnProperty("fullname")); // true
